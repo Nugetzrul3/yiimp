@@ -195,6 +195,8 @@ YAAMP_ALGO g_algos[] =
 	{"argon2d-dyn", argon2d_dyn_hash, 0x10000, 0, 0 }, // Dynamic Argon2d Implementation
 	{"vitalium", vitalium_hash, 1, 0, 0},
 	{"aergo", aergo_hash, 1, 0, 0},
+	
+	{"sha256d", sha256d_hash, 1, 0, 0}, // sha256 2x
 
 	{"sha256t", sha256t_hash, 1, 0, 0}, // sha256 3x
 
