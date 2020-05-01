@@ -5,6 +5,7 @@ function yaamp_get_algos()
 	/* Toggle Site Algos Here */
 	return array(
 		'sha256',
+		'sha256d',
 		'sha256t',
 		'sha256q',
 		'scrypt',
@@ -148,6 +149,7 @@ function getAlgoColors($algo)
 {
 	$a = array(
 		'sha256'	=> '#d0d0a0',
+		'sha256d'	=> '#d0d0c0',
 		'sha256t'	=> '#d0d0f0',
 		'sha256q'	=> '#9696dd',
 		'scrypt'	=> '#c0c0e0',
@@ -234,6 +236,7 @@ function getAlgoPort($algo)
 {
 	$a = array(
 		'sha256'	=> 3333,
+		'sha256d'	=> 3336,
 		'sha256t'	=> 3339,
 		'sha256q'	=> 3337,
 		'lbry'		=> 3334,
